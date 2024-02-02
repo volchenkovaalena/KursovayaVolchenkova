@@ -72,7 +72,6 @@ public class Employee {
         return salary == employee.salary && department == employee.department && id == employee.id && Objects.equals ( name, employee.name ) && Objects.equals ( middleName, employee.middleName ) && Objects.equals ( surname, employee.surname );
     }
 
-
     public int hashCode () {
         return Objects.hash ( name, middleName, surname, salary, department, id );
     }

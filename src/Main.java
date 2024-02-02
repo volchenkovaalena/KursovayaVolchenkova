@@ -21,7 +21,6 @@ public class Main {
         printNames ();
     }
 
-
     public static void printEmployee () {
         for ( int i = 0; i < EmployeeArray.length; i++ ) {
             System.out.println ( EmployeeArray[i] );
